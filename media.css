@@ -1,0 +1,16 @@
+@media (min-width: 200px) and (max-width: 450px) {
+  .nav-links {
+    display: none;
+  }
+
+  /* Mobile visibility Menu  */
+  .mob-visibility-menu {
+    display: inline-block;
+    padding: 2%;
+  }
+
+  .mob-visibility-menu > #mob-menu-bars {
+    font-size: 2.2rem;
+    /* color: ; */
+  }
+}

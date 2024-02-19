@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  /* --pri-color; */
+  --pri-font: Roboto;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Nav bar Styling  */
+.nav-bar {
+  padding: 1% 2%;
+  display: flex;
+  align-items: center;
+}
+
+.nav-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Nav Logo Styling  */
+.nav-logo {
+  width: fit-content;
+  padding: 0% 1%;
+}
+
+/* Nav Links  */
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 2%;
+}
+
+.links {
+  padding: 1% 0.3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links > .links > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+  font-family: var(--pri-font);
+}
+
+.nav-links > .links > a:hover {
+  color: #f5204b;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+/* Mob Visibility Menu  */
+.mob-visibility-menu {
+  display: none;
+}
+/* :root {
+    --pri-color;
+    --pri-font:;
+} */
+
+/* Footer Section Styling  */
+.foot-section {
+  width: 100%;
+  margin-top: 1%;
+  border: 2px solid black;
+  padding: 1% 2%;
+}
+
+/* Footer Content  */
+.foot-content {
+  width: 100%;
+  border: 2px solid red;
+  padding: 1% 0%;
+  display: flex;
+  align-items: center;
+  /* gap: 20px; */
+  justify-content: space-between;
+}
+
+/* Foot Section 1 Styling  */
+.foot-sec1 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 1%;
+}
+/* Foot Section 2 Styling  */
+.foot-sec2 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 1%;
+}
+/* Foot Section 3 Styling  */
+.foot-sec3 {
+  width: 30%;
+  border: 2px solid black;
+  padding: 1%;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* Main Section 1 Styling  */
+#main-sec1 {
+  /* border: 2px solid black; */
+  padding: 1%;
+  height: 100vh;
+  background-image: url("./hero-sec-bg-image.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.advanced-search {
+  line-height: 24px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #777777;
+  box-sizing: border-box;
+  background: #fff;
+  max-width: 360px;
+  border-radius: 10px;
+  overflow: hidden;
+  float: right;
+  margin-top: -472px;
+  width: 100%;
+  padding: 45px 30px;
+  text-align: center;
+  box-shadow: -21.213px 21.213px 30px 0px rgba(158, 158, 158, 0.3);
+  position: relative;
+}
+.main-sec1-header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
